@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    flex: 0 0 auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a, a:hover{
+    text-decoration: none;
+    /* background: #21b573; */
+}
+
+
+.heading{}
+.heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 50px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 0 15px;
+    /* box-shadow: 0px 20px 10px 0px #00000012; */
+}
+h1{
+    font-size: 60px;
+    line-height: 1;
+    margin: 20px 0;
+}
+h1 span{
+    font-size: 60px !important;
+    color: #21b573 !important;
+}
+p{
+    font-size: 18px;
+    line-height: 2;
+    color: #6C6B6B;
+    margin-bottom: 20px;
+}
+
+
+.padd-y{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+
+/***********************************
+        banner-section css start
+***********************************/
+
+.banner-section{
+    background: #F0FFF0;
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+    width: 15%;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 85%;
+    padding: 15px;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #F0FFF0; 
+    border-radius: 30px; 
+    display: block;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+    background: #21b573;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.banner-content{
+    width: 45%;
+    padding: 15px;
+}
+.banner-content span{
+    color: #FD511A;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    background: #21b573;
+    border: 1px solid #21b573;
+    border-radius: 30px;
+    display:inline-block;
+    transition-duration: 0.3s;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #21b573;
+    border-radius: 30px;
+    color: #21b573;
+}
+.banner-img{
+    width: 55%;
+    padding: 15px 50px;
+}
+.banner-img img{}
+
+
+/***********************************
+        banner-section css end
+***********************************/
+
+
+/***********************************
+        feature-section css start
+***********************************/
+
+.feature-section{
+    padding: 50px 0;
+}
+.feature{
+    background: honeydew;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 20px 40px 0px #00000012; */
+    transition-duration: 0.3s;
+}
+.feature img{
+    height: 80px;
+}
+.feature h3{
+    color: #413960;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.feature p{
+    font-size: 16px;
+    margin: 0;
+}
+.feature:hover{
+    box-shadow: 0px 20px 40px 0px #00000012;
+    background: #fff;
+}
+
+/***********************************
+        feature-section css end
+***********************************/
+
+/***********************************
+        course-section css start
+***********************************/
+
+.course-section{}
+.course{
+    box-shadow: 0px 20px 40px 0px #00000012;
+    padding: 25px 15px;
+    border-radius: 15px;
+}
+.course img{}
+.course h3{}
+.course span{}
+.course ul{
+    justify-content: space-between;
+}
+.course ul li{}
+.course ul li i{}
+
+
+/***********************************
+        course-section css end
+***********************************/
+
+
+/***********************************
+        tesimonial-section css start
+***********************************/
+
+.testimonial-section{
+    padding: 50px 0;
+}
+.testimonial-section .flex{
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-section .heading h2{
+    padding: 70px 0 15px;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+}
+.client-image{
+    width: 15%;
+    padding: 25px;
+}
+.client-image img{}
+.client-content{
+    width: 65%;
+    padding: 39px;
+}
+.client-content p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #000 !important;
+}
+
+/***********************************
+        tesimonial-section css end
+***********************************/
+
+
+/***********************************
+        footer-section css start
+***********************************/
+
+footer{
+    background: #282531;
+}
+
+footer .f-p{
+    width: 40%;
+    padding: 40px 35px;
+}
+footer .f-c{
+    width: 20%;
+    padding: 40px 0;
+}
+footer .f-t{
+    width: 20%;
+    padding: 40px 0;
+}
+footer .f-u{
+    width: 20%;
+    padding: 40px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 18px;
+}
+footer ul{}
+footer ul li{}
+footer ul li strong{
+    font-size: 18px;
+    color: #fff;
+}
+footer ul li a{
+    color: #fff;
+    display: block;
+    padding: 2px 0;
+}
+footer ul li a:hover{}
+
+.copyright{
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.copyright a{
+    color: #fff;
+    font-size: 16px;
+}
+.copyright a:hover{
+    color: #21b573;
+}
+
+/***********************************
+        footer-section css end
+***********************************/
